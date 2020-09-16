@@ -1,0 +1,150 @@
+.socialpage {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.socialHeader {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.socialTitle {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 330px;
+    margin-left: 20px;
+}
+
+.socialTitle span {
+    position: absolute;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 110px;
+    font-weight: 600;
+    color: #141414;
+    transform: translateX(5%);
+}
+
+.greenRect2 {
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    width: 0%;
+    height: 18px;
+    background-color: rgb(83, 156, 83);
+    z-index: -1;
+}
+
+
+.platforms {
+    position: relative;
+    margin: 70px 100px;
+    transform: translateX(-5px);
+    text-align: center;
+    width: calc(100% - 200px);
+}
+
+.fa {
+    position: relative;
+    padding: 10px;
+    width: 100px;
+    color: #123123;
+    text-decoration: none;
+    text-align: center;
+    transition: all .5s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.fa::before {
+    font-size: 100px;
+}
+
+.fa-facebook {
+    opacity: 0;
+    margin-right: 42px;
+}
+
+.fa-twitter {
+    opacity: 0;
+    margin: 42px;
+}
+
+.fa-instagram {
+    opacity: 0;
+    margin: 42px;
+}
+
+.fa-github {    
+    opacity: 0;
+    margin-left: 42px;
+}
+
+.fa-facebook:hover {
+    color: rgb(3, 3, 180);
+}
+
+.fa-facebook:active {
+    color: rgba(3, 3, 180, 0.5);
+}
+
+.fa-twitter:hover {
+    color: rgb(176, 176, 255);
+}
+
+.fa-twitter:active {
+    color: rgba(176, 176, 255, 0.5);
+}
+
+.fa-instagram:hover {
+    color: rgb(212, 47, 97);
+}
+
+.fa-instagram:active {
+    color: rgba(212, 47, 97, 0.5);
+}
+
+.fa-github:hover {
+    color: rgb(47, 85, 47);
+}
+
+.fa-github:active {
+    color: rgba(47, 85, 47, 0.5);
+}
+
+.eop {
+    height: 29px;
+    background-color: rgb(75, 64, 42);
+}
+
+.eop p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+}
+
+@keyframes greenRect {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes greenRect2 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 200%;
+    }
+}
